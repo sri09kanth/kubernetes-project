@@ -6,7 +6,7 @@ KUBERNETES PROJECT
 
 Road Map: 
 
-![Project_207](project-road-map.PNG)
+![Project_207](project-road-map.png)
 
 Outcome:
 
