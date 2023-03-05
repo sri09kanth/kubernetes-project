@@ -29,8 +29,8 @@ def init_phonebook_db():
     PRIMARY 
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb
    
-    cursor.execute(phonebook_
-# Write a function named `insert_person` which inserts person into the phonebook table in 
+    cursor.execute(phonebook
+# Write a function named `insert_person` which inserts person into the phonebook table 
 # and returns text info about result of the operation
 def insert_person(name, number):
     query = f"""
