@@ -13,7 +13,7 @@ app.config['MYSQL_DATABASE_DB'] = os.getenv('MYSQL_DATABASE')
 app.config['MYSQL_DATABASE_USER'] = os.getenv('MYSQL_USER')
 #app.config['MYSQL_DATABASE_PORT'] = 3306
 mysql = MySQL()
-mysql.init_app(app) 
+mysql.init_app(app)
 connection = mysql.connect()
 connection.autocommit(True)
 cursor = connection.cursor()
