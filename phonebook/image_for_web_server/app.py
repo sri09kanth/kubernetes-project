@@ -19,7 +19,7 @@ connection.autocommit(True)
 cursor = connection.cursor()
 
 # Write a function named `init_todo_db` which initializes the todo db
-# Create P table within sqlite db
+# Create P table within sqlite 
 def init_phonebook_db():
     phonebook_table = 
     CREATE TABLE IF NOT EXISTS phonebook.phonebook(
