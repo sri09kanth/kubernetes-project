@@ -23,7 +23,7 @@ cursor = connection.cursor()
 def init_phonebook_db():
     phonebook_table = 
     CREATE TABLE IF NOT EXISTS phonebook.phonebook(
-    id INT NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT
     name VARCHAR(100) NOT 
     number VARCHAR(100) NOT NULL,
     PRIMARY 
