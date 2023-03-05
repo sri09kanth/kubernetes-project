@@ -27,7 +27,7 @@ def init_phonebook_db():
     name VARCHAR(100) NOT NULL,
     number VARCHAR(100) NOT NULL,
     PRIMARY KEY (i
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_
     "
     cursor.execute(phonebook_table)
 
