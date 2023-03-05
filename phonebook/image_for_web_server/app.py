@@ -24,7 +24,7 @@ def init_phonebook_db():
     phonebook_table = 
     CREATE TABLE IF NOT EXISTS phonebook.phonebook(
     id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL
+    name VARCHAR(100) NOT 
     number VARCHAR(100) NOT NULL,
     PRIMARY 
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_
