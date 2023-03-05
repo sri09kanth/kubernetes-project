@@ -17,7 +17,6 @@ mysql.init_app(app)
 connection = mysql.connect()
 connection.autocommit(True)
 cursor = connection.cursor()
-
 # Write a function named `init_todo_db` which initializes the todo
 # Create P table within sqlite 
 def init_phonebook_db():
