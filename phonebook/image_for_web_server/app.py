@@ -26,7 +26,7 @@ def init_phonebook_db():
     id INT NOT NULL AUTO_INCREMENT
     name VARCHAR(100) NOT 
     number VARCHAR(100) NOT NULL,
-    PRIMARY 
+    PRIMARY
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb
    
     cursor.execute(phon
