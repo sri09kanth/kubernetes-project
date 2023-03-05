@@ -4,7 +4,7 @@ from flaskext.mysql import MySQL
 import os
 
 # Create an object named app
-app = Flask(__name__)
+app = Flask(__name
 
 # Configure mysql database
 app.config['MYSQL_DATABASE_HOST'] = os.getenv('MYSQL_DATABASE
